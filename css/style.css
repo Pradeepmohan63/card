@@ -5,35 +5,35 @@
 }
 
 .container{
-	margin:0 auto;
-	width:26%;
-	padding:110px 0;
-	
+	height:500px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:auto;
 }
 
 .card i{
 	font-size: 31px;
-    border: 1px solid black;
     border-radius: 50%;
     color: orange;
-    padding: 19px;
+    padding: 18px 20px;
     position: absolute;
-    bottom: 185px;
-    right: 163px;
-    border: none;
+    top: -32px;
+    right: 176px;
     background-color: #f1f1f1;
     box-shadow: 0 0 10px #bebaba;
 }
 
 .card{
 	text-align: center;
-    border: 2px solid black;
+    margin: 0 auto;
     padding: 60px 0;
     border-radius: 27px;
     position: relative;
     background-color: #f1f1f1;
-    border: none;
     box-shadow: 0 0 10px #bebaba;
+    width: 28%;
+    height: 213px;
 }
 	
 .heading{
